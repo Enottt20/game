@@ -5,10 +5,9 @@
 Python 3.11 , Django 5.1, djangorestframework 3.15, Postgres 13, Nginx 1.25
 
 ## Реализовано:
- - Описаны модели Boost и Player(расположение game_test\backend\base\models.py).
- - Реализован метод начисления игроку приза за прохождение уровня(расположение game_test\backend\base\serializers.py).
- - Реализована выгрузка данных из базы данных в CSV-файл(расположение game_test\backend\base\utils.py).
-
+ - Описаны модели Boost и Player(расположение game\backend\base\models.py).
+ - Реализован метод начисления игроку приза за прохождение уровня(расположение game\backend\base\serializers.py).
+ - Реализована выгрузка данных из базы данных в CSV-файл(расположение game\backend\base\utils.py).
 ## Запуск проекта
 
 - Создать файл .env в папке infra и прописать в него свои данные.
