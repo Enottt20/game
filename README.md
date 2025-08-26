@@ -15,11 +15,11 @@ Python 3.11 , Django 5.1, djangorestframework 3.15, Postgres 13, Nginx 1.25
 ```
 TOKEN=project_token
 DB_ENGINE=django.db.backends.postgresql
-POSTGRES_PASSWORD=db_password
-POSTGRES_USER=db_user
-POSTGRES_DB=db_name
-POSTGRES_PORT=db_port
-POSTGRES_SERVER=db_host_name
+POSTGRES_PASSWORD=postgres
+POSTGRES_USER=postgres
+POSTGRES_DB=postgres
+POSTGRES_PORT=5432
+POSTGRES_SERVER=db
 ```
 - Запустить сборку  проекта:
 ```
